@@ -1,1 +1,1 @@
-# Simple-JS-Problems
+# Simple-JS-Excercises
