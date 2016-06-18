@@ -12,4 +12,4 @@ function minValue(arr) {
 }
 
 
-console.log(min([3,4,1,5]));
+console.log(minValue([3,4,1,5]));
