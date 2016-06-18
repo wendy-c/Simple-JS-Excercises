@@ -1,6 +1,6 @@
 /*
 
-Given array of numbers, return the smallest
+Given an array of numbers, return the smallest
 
 Example minValue([3,4,1,5])  ->  1
 
