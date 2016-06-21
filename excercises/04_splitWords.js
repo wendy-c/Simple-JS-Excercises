@@ -9,7 +9,9 @@ Example splitWords(['this is','how','we break up','words'])
 */
 
 function splitWords (arr) {
-	
+	return arr.reduce(function(acc,cur){
+		return acc.concat(cur.split(" "));
+	},[])
 
 }
 

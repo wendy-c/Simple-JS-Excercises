@@ -10,7 +10,13 @@ Example arrayToObject(['sky','blue','cloud','white'])  ->  { sky : 'blue', cloud
 
 function arrayToObject(arr) {
 
-	
+	return arr.reduce(function(acc,cur){
+		//if indexOf is an uneven number
+		if(arr.indexOf(cur)%2==0){
+			acc[cur] = arr[arr.indexOf(cur)+1];
+		}
+		return acc;
+	},{})
 }
 
 
